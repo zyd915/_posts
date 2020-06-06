@@ -15,7 +15,7 @@ OLTP( On-Line Transaction Processing ) 联机事务处理过程，通常也可�
 OLAP( On-Line Analytical Processing)，联机分析处理过程。个人理解为主要场景针对大批量数据，实时性无要求，基于数仓多维模型，进行分析操作的系统中。Hadoop体系中MapReduce、Hive、Spark、Flink等都可以进行为OLAP实现。
 
 ### OLAP和OLTP区别
-![ea607040374e31a83b6fed9241f1e66b.png](evernotecid://7E7E8A12-7BA4-4081-A93E-6E3CE2ABD0B6/appyinxiangcom/18253885/ENResource/p435)
+![](https://static.studytime.xin/article/20200607010742.png)
 
 ### OLAP的特点
 - 从用户的思考⻆度出发，仿照用户思考模式预先为构建多维的数据模型。
