@@ -1,3 +1,14 @@
+---
+title: 浅谈数仓三、浅谈数仓分层和模型
+date: 2020-06-07 01:02:21
+updated: 2020-06-07 01:02:21
+tags: 
+    - 数仓
+categories: data
+toc: true
+thumbnail: https://static.studytime.xin/article/FxmJfoBjJlQZxB0RkKiC_meitu_2.jpg
+excerpt: 数仓为空间换时间，通过大量预处理，提升用户数据效率体现等。故而存在大量数据冗余。如果不分层，源业务系统的业务规则发生变化将会影响整个数据清洗过程，工作量巨大。通过数据分层管理可以简化数据清洗的过程，因为把原来一步的工作分到了多个步骤去完成，相当于把一个复杂的工作拆成了多个简单的工作，把一个大的黑盒变成了一个白盒，每一层的处理逻辑都相对简单和容易理解，这样我们比较容易保证每一个步骤的正确性，当数据发生错误的时候，往往我们只需要局部调整某个步骤即可。
+---
 ### 数仓分层
 ODS层基础层-ODS（Operational Data Store-操作型数据存储）：主要是未经过加⼯的原始数据
 中间层-CDM\EDW（Enterprise Data Warehouse-企业级数据仓库，Common Data Model，公共维度模型层）：
