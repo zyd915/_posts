@@ -108,6 +108,7 @@ alter table score drop partition(month = '201806');
 #### 需求实现:
 
 - 本地上传数据到hdfs
+
 ```
 cd /opt/module/hive-1.1.0-cdh5.14.2/data/test
 hdfs dfs -mkdir -p /scoredatas/day=20180607
