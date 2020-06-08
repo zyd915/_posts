@@ -1,5 +1,5 @@
 ---
-title: hive-dbeaver-install
+title: hive 学习之路（六)、Hive可视化工具Dbeaver配置使用
 date: 2020-06-09 01:15:20
 updated: 2020-06-09 01:15:22
 tags:
@@ -35,7 +35,7 @@ Required field 'client_protocol' is unset! Struct:TOpenSessionReq(client_protoco
 #### 根据下载的dbeaver.dmg，双击安装
 
 #### 然后启动dbeaver图形化界面
-![e210283a4272894ae7555067ded925c2.png](evernotecid://7E7E8A12-7BA4-4081-A93E-6E3CE2ABD0B6/appyinxiangcom/18253885/ENResource/p437)
+![](https://static.studytime.xin/article/20200609011902.png)
 
 #### 新建hive连接，配置主机名、端口号、用户名等
 ![](https://static.studytime.xin/article/20200607184019.png)
