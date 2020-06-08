@@ -1,5 +1,5 @@
 ---
-title: hive-partition-and-bucket
+title: hive 学习之路（五)、Hive的分区表与分桶表
 date: 2020-06-08 13:48:50
 updated: 2020-06-08 13:48:52
 tags: 

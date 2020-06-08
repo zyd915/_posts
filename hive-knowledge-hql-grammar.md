@@ -1,5 +1,5 @@
 ---
-title: hive 学习之路（三）HQL的基本语法
+title: hive 学习之路（四）HQL的基本语法
 date: 2020-05-04 17:36:45
 updated: 2020-05-04 17:39:43
 tags:
