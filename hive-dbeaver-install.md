@@ -10,10 +10,9 @@ toc: true
 thumbnail: https://static.studytime.xin/article/kWlG922vxMM.jpg
 excerpt: Dbeaver是一个图形化的界面工具，专门用于与各种数据库的集成，通过dbeaver我们可以与各种数据库进行集成。通过图形化界面的方式来操作我们的数据库与数据库表，类似于我们的sqlyog或者navicat。
 ---
-https://static.studytime.xin/article/20200607183920.png
-
 Dbeaver是一个图形化的界面工具，专门用于与各种数据库的集成，通过dbeaver我们可以与各种数据库进行集成。
 通过图形化界面的方式来操作我们的数据库与数据库表，类似于我们的sqlyog或者navicat。
+![](https://static.studytime.xin/article/20200607183920.png)
 
 ### 下载Dbeaver
 ![](https://static.studytime.xin/article/20200607183729.png)

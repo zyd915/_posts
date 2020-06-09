@@ -28,7 +28,6 @@ lrwxrwxrwx. 1 root root 7 1月   7 21:06 /usr/bin/python -> python2
 yum -y install openssl-devel bzip2-devel expat-devel gdbm-devel readline-devel sqlite-devel wget
 yum -y install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gcc
 yum -y install libffi-devel 
-
 ```
 
 ### 下载python3、解压
@@ -40,9 +39,11 @@ tar -zxvf Python-3.7.6.tgz
 ### 编译安装
 ```
 cd Python-3.7.6
+
 ./configure --prefix=/usr/local/python3
+
 make && make install
-``` 
+```
 
 ### 创建软连接
 ```
@@ -54,6 +55,7 @@ ln -s /usr/local/python3/bin/pip3 /usr/local/bin/pip3
 ```
 [root@application-server Python-3.7.6]# python3 -V
 Python 3.7.6
+
 [root@application-server Python-3.7.6]# pip3 -V
 pip 19.2.3 from /usr/local/python3/lib/python3.7/site-packages/pip (python 3.7)
 ```
