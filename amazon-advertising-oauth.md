@@ -28,6 +28,7 @@ excerpt: 亚马逊广告授权流程说明
 | Far East (FE) | https://apac.account.amazon.com/ap/oa |
 
 API调用具有以下参数：
+
 | 参数 | 说明 |
 | --- | --- |
 | client_id | 开发者client_id |
@@ -51,12 +52,14 @@ https://www.amazon.com/ap/oa?client_id=YOUR_LWA_CLIENT_ID&scope=cpc_advertising:
 接下来，第三方站点根据生成的url链接地址，浏览器中进行重定向，即可引导用户登录授权亚马逊广告。
 
 ### 三、用户登录、确认并同意授权
+
 用户进入亚马逊广告授权引导页后，即需要用户登录，登录后，亚马逊将会把用户重定向到同意书页面。
 ![](https://static.studytime.xin/article/20200610173658.png)
 
 要授予应用程序访问Amazon Advertising的权限，请选择允许。要拒绝应用程序访问Amazon Advertising，请选择取消。
 
 ### 4.授权后回调URI，得到授权码code
+
 用户允许应用程序访问Amazon Advertising api的权限，即同意授权后，将跳转到步骤一中使用的URL相同区域的Amazon网站。同时此步骤中将会获得刷新令牌使用的code码。
 最后将会重定向到步骤一中设置的redirect_uri链接，即第三方回调地址，注意此时会携带生成的code码。
 
