@@ -1,5 +1,5 @@
 ---
-title: bigdata-cdh-cluster-construction-hbase
+title: 大数据集群搭建 (三)、HBase三节点分布式集群搭建
 date: 2020-06-11 08:46:15
 updated: 2020-06-11 08:46:18
 tags: 
