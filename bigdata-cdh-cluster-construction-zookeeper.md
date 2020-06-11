@@ -74,7 +74,7 @@ export ZK_HOME=/opt/module/zookeeper-3.4.5-cdh5.14.2
 export PATH=$PATH:$ZK_HOME/bin
 
 三台节点，让新添环境变量生效（hadoop用户下执行）
-source /etc/profile
+source ~/.bash_profile
 ```
 
 ### 三台机器启动zookeeper服务
