@@ -3,6 +3,7 @@ title: Hbase学习之路（一）初识与扩展
 permalink: hbase-first-acquaintance
 date: 2020-06-11 19:33:22
 updated: 2020-06-11 19:33:23
+thumbnail: https://static.studytime.xin/article/20200615130155.jpg
 tags: 
     - bigdata
     - hbase
