@@ -86,44 +86,76 @@ yum makecache
 ```
 
 ### ssh免密登录
-1. 本地是否存在公钥，不存在安装下面创建公匙
-
+#### 本地是否存在公钥，不存在安装下面创建公匙
 打开item2终端,执行如下命令:
 ```
 ssh-keygen -t rsa -C 'your email@domain.com’
 -t 指定密钥类型，默认即 rsa ，可以省略
 -C 设置注释文字，比如你的邮箱
 ```
+
 会进行2次提示,文件名提示输入文件名,默认生成id_rsa,以及密码提示,默认为空,指定完成后会在,生成id_rsa私匙,以及id_rsa.pub公匙
-
-cd ~/.ssh
-
-2. 复制公匙到远程服务器存储
-将上一步生成的公匙文件放入远程服务器目录中,查看远程服务器是否存在该目录,不存在进行创建目录.
-
-登录远程服务器
-
 ```
-ssh root@108.61.250.251   //输入密码登入服务器
-vim ~/.ssh/authorized_keys  //切入该目录,不存在则会创建,此为root管理员,其他用户切换着对应的home家目录下对应的目录内新建.ssh/authorized_keys文件
+cd ~/.ssh
+```
+#### 复制公匙到远程服务器存储
+将上一步生成的公匙文件放入远程服务器目录中,查看远程服务器是否存在该目录,不存在进行创建目录
+
+#### 登录远程服务器
+```
+ssh root@108.61.250.251   
+touch ~/.ssh/authorized_keys  //切入该目录,不存在则会创建,此为root管理员,其他用户切换着对应的home家目录下对应的目录内新建.ssh/authorized_keys文件
 chmod 755 .ssh/*  //给.ssh文件夹以及authorized_keys 755权限
 打开本地电脑下的公匙,放入服务器目录中
 vim ~/.ssh/id_rds.pub 
 ```
-3. 设置快捷登录
-#将username替换为你的ssh服务器用户名，hostname替换为服务器的ip 此时就不需要输入密码了
+
+#### 设置快捷登录
+将username替换为你的ssh服务器用户名，hostname替换为服务器的ip 此时就不需要输入密码了
 `ssh username@hostname`
-
 为了更快的一键登录,ssh提供了一种方式,往~/.ssh/config里面添加配置信息就可
-
-vim ~/.ssh/config
-//添加以下文件
 ```
-Host    alias #自定义别名
+vim ~/.ssh/config
+
+#自定义别名
+Host    alias 
    HostName        hostname  #替换为你的ssh服务器ip或domain
    Port            port #ssh服务器端口，默认为22
    User            user #ssh服务器用户名
    IdentityFile    ~/.ssh/id_rsa #第一个步骤生成的公钥文件对应的私钥文件
 ```
+
 保存文件退出,即可使用别名免密登录.
 `ssh alias;`
+
+### 开启root账号远程登录
+
+#### 切换为root账号
+```
+sudo -s
+```
+
+#### 编辑ssh配置文件
+```
+vim /etc/ssh/sshd_config
+```
+
+### 修改以下内容即可
+```
+PermitRootLogin yes
+PasswordAuthentication yes
+```
+
+#### 重启ssh
+```
+service sshd restart
+```
+
+#### 查看当前用户，也可以重新创建，加入root组
+```
+who
+```
+
+#### 即可ssh登录
+
+
