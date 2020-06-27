@@ -1,5 +1,6 @@
 ---
 title: Hadoop 基础
+permalink: hadoop-base
 date: 2020-05-27 01:58:08
 updated: 2020-05-27 01:58:10
 tags: 

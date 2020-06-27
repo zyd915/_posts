@@ -1,5 +1,6 @@
 ---
 title: 亚马逊广告sdk easy-amazon-advertising
+permalink: easy-amazon-advertising
 date: 2020-05-06 21:10:27
 updated: 2020-05-06 21:10:28
 tags: 

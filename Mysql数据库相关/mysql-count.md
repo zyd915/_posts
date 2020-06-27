@@ -1,5 +1,6 @@
 ---
 title: mysql 常见统计方案整理汇总
+permalink: mysql-count
 date: 2020-05-04 00:46:26
 updated: 2020-05-04 20:01:49
 tags: 

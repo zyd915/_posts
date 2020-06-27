@@ -1,5 +1,6 @@
 ---
 title: 亚马逊广告授权流程说明
+permalink: amazon-advertising-oauth
 date: 2020-05-07 21:10:28
 updated: 2020-05-07 21:10:28
 tags: 

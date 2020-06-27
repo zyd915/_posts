@@ -1,5 +1,6 @@
 ---
 title: 公司内部mysql使用规范分享
+permalink: mysql-internal-specifications
 date: 2020-03-21 23:12:47
 updated: 2020-03-21 23:12:55
 tags: 

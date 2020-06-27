@@ -1,5 +1,6 @@
 ---
 title: MySQL 数据库用户权限相关操作
+permalink: mysql-user-about
 date: 2020-05-04 19:33:25
 updated: 2020-05-04 19:59:49
 tags: 

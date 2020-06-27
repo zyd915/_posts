@@ -1,5 +1,6 @@
 ---
 title: Mac Os 下MySQL忘记密码后如何重置密码
+permalink: mysql-password-modify
 date: 2020-05-04 00:46:26
 updated: 2020-05-04 20:01:50
 tags: 

@@ -1,5 +1,6 @@
 ---
 title: 打造Mac OS 最强终端利器 iTerm2
+permalink: mac-os-iterm
 tags: 
     - iTerm2
     - Mac
@@ -23,15 +24,12 @@ $ brew cask install iterm2
 ```
 
 安装完成后的 iTerm，之后需要调整主题。
-
 ![](https://static.studytime.xin/2020-05-03-045905.jpg)
 
 ### oh-my-zsh
-
 ![](https://static.studytime.xin/2020-05-03-045945.jpg)
 
 Oh My Zsh 是对主题的进一步扩展，地址：[https://github.com/robbyrussell/oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
-
 先把 Zsh 设置为当前用户的默认 Shell（这样新建标签的时候才会使用 Zsh），macOS已经自带zsh ,但是它不是默认shell
 ```
 cat /etc/shells
@@ -102,7 +100,6 @@ git clone https://github.com/dracula/iterm.git
 ![](https://static.studytime.xin/2020-05-03-045810.jpg)
 
 ### 目录和文件名区分设置
-
 `Preferences -> Profiles -> Text -> Text Rendering` 将 `Draw bold text in bright colors ` 前面的勾去掉，就可以实现。
 
 ![](https://static.studytime.xin/2020-05-03-050231.jpg)
@@ -122,7 +119,6 @@ Zsh 支持目录的快速跳转，利用命令 `d` 可以查看最近访问的�
 
 ### 命令设置别名
 通过在 .zshrc 中配置alias，可以方便的为其他的命令设置别名，例如git快捷键，以及ssh服务器登录别名快捷键等。
-
 ```
 vim ~/.zshrc
 
@@ -158,15 +154,12 @@ source ~/.zshrc
 
 ### 左右键跳转
 主要是按住option + → or ←键，在命令的开始和结尾跳转切换，原本是不生效的，需要手动开启下。
-
 打开 iTerm2，按Command + ,键，打开 Preferences 配置界面，然后Profiles → Keys → Load Preset... → Natural Text Editing，就可以了。
 
 ###  iTerm2 快速隐藏和显示
 这个功能也非常使用，就是通过快捷键，可以快速的隐藏和打开 iTerm2，示例配置（Commond + enter）：
 
-
 ### 命令自动补齐插件 zsh-autosuggestions
-
 这个功能是非常实用的，可以方便我们快速的敲命令。。
 
 先克隆zsh-autosuggestions项目，到指定目录，然后编辑vim ~/.zshrc文件，找到plugins配置，增加zsh-autosuggestions插件。
@@ -182,7 +175,6 @@ vim zsh-autosuggestions.zsh
 
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=10' 
 
-
 # 添加代码
 vim ~/.zshrc
 source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
@@ -193,11 +185,8 @@ plugins=(git zsh-autosuggestions)
 source ~/.zshrc
 ```
 
-
 ### 增加指令高亮效果
-
 特殊命令和错误命令，会有高亮显示。
-
 
 然后编辑vim ~/.zshrc文件，找到plugins配置，增加zsh-autosuggestions插件。
 ```
@@ -245,19 +234,14 @@ $ curl ip.cn
 
 
 ### 全局环境便利加载
-
 将shell从bash切换到zsh之后，可能有的环境变量会失效，需要将原来在bash配置文件中的配置转移到zsh配置文件中，这里提供两个方式。
-
-
-1. 将bash配置文件`~/.bash_profile`中的环境变量等配置复制到zsh配置文件`～/.zshrc`中
-
-2. 在zsh配置文件`～/.zshrc`中添加下面这行
+#### 将bash配置文件`~/.bash_profile`中的环境变量等配置复制到zsh配置文件`～/.zshrc`中
+#### 在zsh配置文件`～/.zshrc`中添加下面这行
 ```
 source ~/.bash_profile
 ```
 
 ### 快捷命令
-
 ```
 command + t 新建标签
 command + w 关闭标签

@@ -1,5 +1,6 @@
 ---
 title: Mysql 5.7 使用 yum安装
+permalink: mysql-yum-install
 date: 2020-05-04 00:46:26
 updated: 2020-05-04 19:59:49
 tags: 

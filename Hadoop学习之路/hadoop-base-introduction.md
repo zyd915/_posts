@@ -1,5 +1,6 @@
 ---
 title: Hadoop 发展背景和简介
+permalink: hadoop-base-introduction
 date: 2020-05-27 00:58:16
 updated: 2020-05-27 00:58:17
 tags: 

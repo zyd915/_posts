@@ -1,5 +1,6 @@
 ---
 title: 图解HDFS存储原理
+permalink: hadoop-graphical-principle-of-hadoop-storage
 date: 2020-05-28 01:33:19
 updated: 2020-05-28 01:33:22
 tags: 

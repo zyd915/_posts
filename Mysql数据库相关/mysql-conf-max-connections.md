@@ -1,5 +1,6 @@
 ---
 title: MySQL性能优化之max_connections配置参数浅析
+permalink: mysql-conf-max-connections
 date: 2020-05-04 00:46:26
 updated: 2020-05-04 20:01:49
 tags: 

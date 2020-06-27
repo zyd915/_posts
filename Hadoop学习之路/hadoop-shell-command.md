@@ -1,5 +1,6 @@
 ---
 title: HDFS的shell常用命令操作
+permalink: hadoop-small-file-governance
 date: 2020-05-27 02:10:33
 updated: 2020-05-27 02:10:36
 tags: 
