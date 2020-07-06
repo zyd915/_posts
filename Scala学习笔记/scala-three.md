@@ -58,18 +58,18 @@ res95: Int = 3
 变长数组指的是数组的长度是可变的，可以往数组中添加、删除元素。
 
 #### 创建变长数组，需要提前导入ArrayBuffer类
+
 ```scala
 import scala.collection.mutable.ArrayBuffer
 ```
 
 #### 语法
-- 创建空的ArrayBuffer变长数组
+创建空的ArrayBuffer变长数组
 ```scala
 val/var a = ArrayBuffer[元素类型]()
 ```
 
-- 创建带有初始元素的ArrayBuffer
-
+创建带有初始元素的ArrayBuffer
 ```scala
 val/var a = ArrayBuffer(元素1，元素2，元素3....)
 ```
@@ -94,7 +94,8 @@ b: scala.collection.mutable.ArrayBuffer[String] = ArrayBuffer(hadoop, storm, spa
 - 使用`+=`添加元素
 - 使用`-=`删除元素
 - 使用`++=`追加一个数组到变长数组
-- 示例
+
+##### 示例
 ```scala
 // 定义变长数组
 scala> val a = ArrayBuffer("hadoop", "spark", "flink")
@@ -114,11 +115,12 @@ res12: a.type = ArrayBuffer(spark, flink, flume, hive, sqoop)
 ```
 
 #### 遍历数组
-可以使用以下两种方式来遍历数组：
-- 使用==for表达式== 直接遍历数组中的元素
-- 使用 ==索引== 获得数组中的元素
 
-- 示例
+可以使用以下两种方式来遍历数组：
+
+- 使用for表达式 直接遍历数组中的元素
+- 使用 索引 获得数组中的元素
+
 ```scala
 scala> for(i <- a) println(i)
 hadoop
@@ -148,7 +150,7 @@ scala中的数组封装了丰富的计算操作，将来在对数据处理的时
 - 求最小值——min方法 
 - 排序——sorted方法
 
-- 示例
+
 ```scala
 scala> val array = Array(1,3,4,2,5)
 array: Array[Int] = Array(1, 3, 4, 2, 5)
@@ -208,7 +210,6 @@ b: (Int, Int) = (1,2)
 - 使用 `_1、_2、_3....`来访问元组中的元素
 - 元组的index从1开始，_1表示访问第一个元素，依次类推
 
-- 示例
 ```scala
 scala> val a = (1, "张三", 20, "北京市")
 a: (Int, String, Int, String) = (1,张三,20,北京市)
