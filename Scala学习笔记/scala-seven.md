@@ -116,9 +116,7 @@ object CaseDemo05 extends App {
 }
 
 ```
-<a name="xdLqS"></a>
-### 
-<a name="KX3yM"></a>
+
 ## 样例类
 样例类是一种特殊类，它可以用来快速定义一个用于保存数据的类（类似于Java POJO类），而且它会自动生成apply方法，允许我们快速地创建样例类实例对象。在并发编程和spark、flink这些框架也都会经常使用它。<br />
 
