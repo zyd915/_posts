@@ -1,7 +1,7 @@
 ---
 title: 阿里云 maven仓库地址配置
 permalink: ali-maven-conf
-date: 22020-07-15 22:32:54
+date: 2020-07-15 22:32:54
 updated: 2020-07-15 22:32:55
 tags: 
     - maven
