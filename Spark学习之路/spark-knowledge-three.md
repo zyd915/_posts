@@ -1,8 +1,8 @@
 ---
 title: Spark系列（三）:Spark集群安装部署
 permalink: spark-knowledge-three
-date: 2020-08-01 17:50:20
-updated:2020-08-01 17:50:20
+date: 2020-08-01 18:50:20
+updated: 2020-08-01 18:50:22
 tags:
     - 大数据
     - spark
