@@ -1,8 +1,8 @@
 ---
 title: Spark学习之路（二）:Spark伪分布式安装
 permalink: spark-knowledge-install
-date: 2020-05-04 17:52:15
-updated: 2020-05-04 17:55:43
+date: 2020-07-28 17:50:20
+updated: 2020-07-28 17:50:23
 tags:
     - 大数据
     - spark
