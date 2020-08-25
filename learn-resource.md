@@ -12,14 +12,9 @@ thumbnail: https://static.studytime.xin/article/20200825214457.jpg
 excerpt: 超过 1024G 的 IT 学习资料免费领取（大数据、Java、Python等），你值得拥有！
 ---
 
-## 直接扫描二维码关注 "白程序员的自习室"，此公众号内回复对应的关键字
-
-[扫码关注微信公众号](https://static.studytime.xin/hexo/img/avatar.jpg)
-
-https://static.studytime.xin/hexo/img/avatar.jpg
+## 直接扫描文章底部二维码关注 "白程序员的自习室"，此公众号内回复对应的关键字
 
 ## 你需要的资源
-
 ### 大数据学习资源
 - 回复 "1001"，获取 尚硅谷大数据线下班全套视频
 - 回复 "1002"，获取 传智播客大数据就业班完整版
@@ -48,7 +43,6 @@ https://static.studytime.xin/hexo/img/avatar.jpg
 
 ---
 
-## 失效说明
+## 其他
 如有失效，请在本文章评论说明，更新资源信息。
-
-## t特此声明，此类资源为网络获取，如侵犯个人利益，请及时留言联系作者，将会立即删除相关资料。
+特此声明，此类资源为网络获取，如侵犯个人利益，请及时留言联系作者，将会立即删除相关资料。
