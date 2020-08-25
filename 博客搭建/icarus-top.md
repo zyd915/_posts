@@ -5,7 +5,7 @@ tags:
     - icarus
     - Blog
 categories: Blog
-thumbnail: https://static.studytime.xin/article/20200825233347.png
+thumbnail: https://static.studytime.xin/article/20200825233347.jpg
 date: 2020-07-09 23:10:43
 updated: 2020-07-09 23:10:22
 toc: true
