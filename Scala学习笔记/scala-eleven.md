@@ -1,5 +1,5 @@
 ---
-title: scala语言学习（十一）、隐式转换和隐式参数
+title: scala语言学习（十一）、scala隐式转换和隐式参数
 permalink: scala-eleven
 date: 2020-07-21 00:12:28
 updated: 2020-07-21 00:12:29

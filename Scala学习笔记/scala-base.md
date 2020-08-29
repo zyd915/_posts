@@ -1,5 +1,5 @@
 ---
-title: scala语言学习（一）、初识
+title: scala语言学习（一）、scala介绍
 permalink: scala-base
 date: 2020-07-05 00:15:20
 updated:  2020-07-05 00:15:22

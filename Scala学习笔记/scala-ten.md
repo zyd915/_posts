@@ -1,5 +1,5 @@
 ---
-title: scala语言学习（十）、泛型、上下界
+title: scala语言学习（十）、scala泛型、scala上下界
 permalink: scala-ten
 date: 2020-07-21 00:12:15
 updated:  2020-07-21 00:12:16

@@ -1,5 +1,5 @@
 ---
-title: scala语言学习（五）、柯里化以及应用
+title: scala语言学习（五）、scala柯里化以及应用
 permalink: scala-five
 date: 2020-07-07 01:25:38
 updated:  2020-07-07 01:25:39

@@ -1,5 +1,5 @@
 ---
-title: scala语言学习（三）、Scala的数组、Map、元组、集合
+title: scala语言学习（三）、scala的数组、Map、元组、集合
 permalink: scala-three
 date: 2020-07-07 00:47:11
 updated:  2020-07-07 00:47:12

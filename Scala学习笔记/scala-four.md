@@ -1,5 +1,5 @@
 ---
-title: scala语言学习（四）、函数式编程
+title: scala语言学习（四）、scala函数式编程
 permalink: scala-four
 date: 2020-07-07 01:14:31
 updated:  2020-07-07 01:14:32

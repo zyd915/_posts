@@ -1,5 +1,5 @@
 ---
-title: scala语言学习（七）、模式匹配和样例类
+title: scala语言学习（七）、scala模式匹配和以及scala样例类
 permalink: scala-seven
 date: 2020-07-17 00:34:21
 updated:  2020-07-17 00:34:21

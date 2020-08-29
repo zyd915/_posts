@@ -1,5 +1,5 @@
 ---
-title: scala语言学习（九）、提取器(Extractor)
+title: scala语言学习（九）、scala提取器(Extractor)
 permalink: scala-nine
 date: 2020-07-21 00:11:58
 updated:  2020-07-21 00:11:58

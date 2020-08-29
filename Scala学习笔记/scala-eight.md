@@ -1,5 +1,5 @@
 ---
-title: scala语言学习（八）、异常处理机制
+title: scala语言学习（八）、scala异常处理机制
 permalink: scala-eight
 date: 2020-07-21 00:11:54
 updated:  2020-07-21 00:11:56

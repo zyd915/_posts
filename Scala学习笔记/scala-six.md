@@ -1,5 +1,5 @@
 ---
-title: scala语言学习（六）、面向对象编程类、对象、继承、trait特质
+title: scala语言学习（六）、scala面向对象编程类、对象、继承、trait特质
 permalink: scala-six
 date: 2020-07-13 01:06:37
 updated:  2020-07-13 01:06:37

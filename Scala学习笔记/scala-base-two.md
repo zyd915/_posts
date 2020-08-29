@@ -1,5 +1,5 @@
 ---
-title: scala语言学习（二）、基本使用
+title: scala语言学习（二）、scala的基本使用
 permalink: scala-base-two
 date: 2020-07-05 00:17:20
 updated:  2020-07-05 00:17:22
