@@ -8,7 +8,6 @@ tags:
 categories: tool
 toc: true
 top: 102
-thumbnail: https://static.studytime.xin/article/20200825214457.jpg
 excerpt: 超过 1024G 的 IT 学习资料免费领取（大数据、Java、Python等），你值得拥有！
 ---
 

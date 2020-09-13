@@ -1,6 +1,6 @@
 ---
-title: 浅谈flink state状态管理机制
-permalink: flink-state
+title:     
+permalink: 浅谈flink state状态管理机制
 date: 2020-09-09 22:41:41
 updated: 2020-09-09 22:41:42
 tags:
@@ -8,7 +8,7 @@ tags:
     - flink
 categories: flink
 toc: true
-excerpt: Apache Flink® — Stateful Computations over Data Streams,flink是一个默认就有状态的分分析引擎，针对流失计算引擎中的数据往往是转瞬即逝，但在flink真实业务场景确不能这样，什么都不能留下，肯定是需要有数据留下的，针对这些数据留下来存储下来，在flink中叫做state，中文可以翻译成状态。
+excerpt: Apache Flink®—Stateful Computations over Data Streams,flink是一个默认就有状态的分分析引擎，针对流失计算引擎中的数据往往是转瞬即逝，但在flink真实业务场景确不能这样，什么都不能留下，肯定是需要有数据留下的，针对这些数据留下来存储下来，在flink中叫做state，中文可以翻译成状态。
 ---
 
 ## state 简述
