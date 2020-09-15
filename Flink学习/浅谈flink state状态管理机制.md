@@ -1,6 +1,6 @@
 ---
-title:     
-permalink: 浅谈flink state状态管理机制
+title:  浅谈flink state状态管理机制
+permalink: flink-state
 date: 2020-09-09 22:41:41
 updated: 2020-09-09 22:41:42
 tags:
