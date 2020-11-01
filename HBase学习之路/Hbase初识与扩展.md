@@ -7,7 +7,7 @@ thumbnail: https://static.studytime.xin/article/20200615130155.jpg
 tags: 
     - bigdata
     - hbase
-categories: hbase
+categories: [大数据,hbase]
 toc: true
 excerpt: Google 发表的**三驾马车（既谷歌文件系统 GFS、MapReduce 和 BigTable）论文**，被誉为计算机科学进入大数据时代的标志。
 ---

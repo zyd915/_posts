@@ -6,7 +6,7 @@ updated: 2020-05-27 00:58:17
 tags: 
     - 大数据
     - hadoop
-categories: hadoop
+categories: [大数据,hadoop]
 toc: true
 excerpt: HADOOP最早起源于Nutch。Nutch的设计目标是构建一个大型的全网搜索引擎，包括网页抓取、索引、查询等功能，但随着抓取网页数量的增加，遇到了严重的可扩展性问题——如何解决数十亿网页的存储和索引问题。
 

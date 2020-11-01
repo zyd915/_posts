@@ -6,7 +6,7 @@ updated: 2020-06-13 19:33:23
 tags: 
     - bigdata
     - hbase
-categories: hbase
+categories: [大数据,hbase]
 toc: true
 excerpt: HBase 采用了经典的 master/slave 架构，与 Hdfs 不同的是，他的 master 与 slave 不直接互联，而是引入 zookeeper 让两类服务解耦，这样使得 master 变得完全无状态，而避免了 master 宕机导致的整个集群不可用。
 ---

@@ -6,7 +6,7 @@ updated: 2020-06-12 19:33:23
 tags: 
     - bigdata
     - hbase
-categories: hbase
+categories: [大数据,hbase]
 toc: true
 excerpt: 本内容整理了部分常用命令、以及实验案例。
 ---

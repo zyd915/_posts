@@ -6,7 +6,7 @@ updated: 2020-05-27 01:58:10
 tags: 
     - 大数据
     - hadoop
-categories: hadoop
+categories: [大数据,hadoop]
 toc: true
 excerpt: hdfs是大数据系统的基础，它提供了基本的存储功能，由于底层数据的分布式存储，上层任务也可以利用数据的本地性进行分布式计算。hdfs思想上很简单，就是namenode负责数据存储位置的记录，datanode负责数据的存储。使用者client会先访问namenode询问数据存在哪，然后去datanode存储；写流程也基本类似，会先在namenode上询问写到哪，然后把数据存储到对应的datanode上。所以namenode作为整个系统的灵魂，一旦它挂掉了，整个系统也就无法使用了。在运维中，针对namenode的高可用变得十分关键。
 ---

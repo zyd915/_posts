@@ -6,7 +6,7 @@ updated: 2020-05-23 23:48:02
 tags:
     - 大数据
     - hive
-categories: hive
+categories: [大数据,hive]
 toc: true
 excerpt: 整理汇总hive使用过程中遇到的问题以及解决办法。
 ---

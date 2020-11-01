@@ -6,7 +6,7 @@ updated: 2020-05-27 02:10:36
 tags: 
     - 大数据
     - hadoop
-categories: hadoop
+categories: [大数据,hadoop]
 toc: true
 excerpt: hdfs的shell命令操作,常用风格有两种分别为hadoop fs开头和hdfs dfs开头，两者都可以使用，效果相同，但建议使用hdfs dfs，因为hadoop fs为老版本用法，兼容保留。
 ---

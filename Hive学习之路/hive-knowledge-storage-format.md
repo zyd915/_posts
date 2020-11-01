@@ -6,7 +6,7 @@ updated: 2020-05-04 17:35:43
 tags:
     - 大数据
     - hive
-categories: hive
+categories: [大数据,hive]
 toc: true
 excerpt: Hive会为每个创建的数据库在HDFS上创建一个目录，该数据库的表会以子目录形式存储，表中的数据会以表目录下的文件形式存储。对于default数据库，默认的缺省数据库没有自己的目录，default数据库下的表默认存放在/user/hive/warehouse目录下。
 ---

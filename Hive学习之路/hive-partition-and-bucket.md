@@ -5,7 +5,7 @@ date: 2020-06-08 13:48:50
 updated: 2020-06-08 13:48:52
 tags: 
     - hive
-categories: hive
+categories: [大数据,hive]
 toc: true
 thumbnail: https://static.studytime.xin/article/CROh0hfuG3I.jpg
 excerpt: Hive将表划分为分区(partition)表和分桶(bucket)表。分区可以让数据的部分查询变得更快，也就是说，在加载数据的时候可以指定加载某一部分数据，并不是全量的数据。分桶表通常是在原始数据中加入一些额外的结构，这些结构可以用于高效的查询，例如，基于ID的分桶可以使得用户的查询非常的块。

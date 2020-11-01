@@ -6,7 +6,7 @@ updated: 2020-05-04 17:39:43
 tags:
     - 大数据
     - hive
-categories: hive
+categories: [大数据,hive]
 toc: true
 priority: 0
 excerpt: HQL 是建立在 Hive 上的类sql语言，虽然和mysql等sql语言有很多一致的地方，但还是有所不同的。本文整理汇总了 HQL的 相关 DDL 操作。

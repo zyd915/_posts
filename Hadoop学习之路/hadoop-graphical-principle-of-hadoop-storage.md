@@ -6,7 +6,7 @@ updated: 2020-05-28 01:33:22
 tags: 
     - 大数据
     - hadoop
-categories: hadoop
+categories: [大数据,hadoop]
 toc: true
 excerpt: HDFS是现在最受欢迎和被人们说熟知的分布式文件系统。本文翻译了经典的 HDFS 原理讲解漫画，以一种通俗易懂的方式帮助 HDFS 初学者理解HDFS 的原理。
 ---

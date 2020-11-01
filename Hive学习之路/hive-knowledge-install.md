@@ -6,7 +6,7 @@ updated: 2020-05-04 17:25:43
 tags:
     - 大数据
     - hive
-categories: hive
+categories: [大数据,hive]
 toc: true
 priority: 0
 excerpt: Hive 是基于 Hadoop 的数据仓库解决方案，所以默认代表已经安装 Hadoop，本文只要整理了伪分布式场景下的安装和简单实用案例。

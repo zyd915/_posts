@@ -6,7 +6,7 @@ updated: 2020-06-11 08:46:18
 tags: 
     - bigdata
     - hbase
-categories: hbase
+categories: [大数据,hbase]
 thumbnail: https://static.studytime.xin/article/DY3l0WUykno.jpg
 toc: true
 excerpt: HBase是建立在Hadoop文件系统之上的分布式面向列的数据库。它是一个开源项目，是横向扩展的。

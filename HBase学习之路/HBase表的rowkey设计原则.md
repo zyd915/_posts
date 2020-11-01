@@ -6,7 +6,7 @@ updated: 2020-06-14 19:33:23
 tags: 
     - bigdata
     - hbase
-categories: hbase
+categories: [大数据,hbase]
 toc: true
 excerpt: HBase表的合理设计，对HBase高性能的使用是至关重要。
 ---

@@ -8,7 +8,7 @@ tags:
     - 大数据
     - hadoop
     - hive
-categories: hadoop
+categories: [大数据,hadoop]
 toc: true
 excerpt: hadoop集群配置LZO压缩,在集群上运行jar包生成loz文件,以及支持Hive.
 ---

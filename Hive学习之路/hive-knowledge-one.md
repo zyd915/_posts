@@ -6,7 +6,7 @@ updated: 2020-05-04 17:10:43
 tags:
     - 大数据
     - hive
-categories: hive
+categories: [大数据,hive]
 toc: true
 excerpt: Hive 是基于 Hadoop 的数据仓库解决方案。由于 Hadoop 本身在数据存储和计算方面有很好的可扩展性和高容错性，因此使用 Hive 构建的数据仓库也秉承了这些特性。
 ---
