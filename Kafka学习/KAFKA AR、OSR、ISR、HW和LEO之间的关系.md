@@ -39,8 +39,7 @@ leader副本负责维护和跟踪ISR集合中所有follower副本的滞后状态
 ### 什么是HW高水位
 HW是High Watermark的缩写，俗称高水位，它标识了一个特定的消息偏移量（offset），消费者只能拉取到这个offset之前的消息。
 
-
-![](https://cdn.nlark.com/yuque/0/2020/jpeg/573685/1604241513904-f8f24c3c-0db2-4cdb-a350-d4d69904f635.jpeg#align=left&display=inline&height=259&margin=%5Bobject%20Object%5D&originHeight=259&originWidth=600&size=0&status=done&style=none&width=600)
+![](https://static.studytime.xin/article/2020/11/16043177212192.jpg)
 
 
 如图所示，它代表一个日志文件，这个日志文件中有 9 条消息，第一条消息的 offset（LogStartOffset）为0，最后一条消息的offset为8，offset为9的消息用虚线框表示，代表下一条待写入的消息。日志文件的HW为6，表示消费者只能拉取到offset在0至5之间的消息，而offset为6的消息对消费者而言是不可见的。
@@ -55,25 +54,17 @@ LEO是Log End Offset的缩写，它标识当前日志文件中下一条待写入
 ### ISR集合，以及HW和LEO之间的关系
 为了更好地理解ISR集合，以及HW和LEO之间的关系，下面通过一个简单的示例来进行相关的说明。如图所示，假设某个分区的ISR集合中有3个副本，即一个leader副本和2个follower副本，此时分区的LEO和HW都为3。消息3和消息4从生产者发出之后会被先存入leader副本
 
+![](https://static.studytime.xin/article/2020/11/16043177369600.jpg)
 
-![](https://cdn.nlark.com/yuque/0/2020/png/573685/1604241725405-688ad038-f64a-4b7f-afad-d6e6c76c8dfc.png#align=left&display=inline&height=265&margin=%5Bobject%20Object%5D&originHeight=529&originWidth=1014&size=0&status=done&style=none&width=507)
+![](https://static.studytime.xin/article/2020/11/16043177502794.jpg)
 
+![](https://static.studytime.xin/article/2020/11/16043177624510.jpg)
 
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/573685/1604241776907-17a7a6ff-6c8c-4187-b124-4c72078de359.png#align=left&display=inline&height=243&margin=%5Bobject%20Object%5D&name=image.png&originHeight=485&originWidth=870&size=97246&status=done&style=none&width=435)
-
+![](https://static.studytime.xin/article/2020/11/16043177728479.jpg)
 
 在消息写入leader副本之后，follower副本会发送拉取请求来拉取消息3和消息4以进行消息同步。
 
-
-![](https://cdn.nlark.com/yuque/0/2020/png/573685/1604242019641-b462bc84-7914-414c-a80b-7de9a5ad257c.png#align=left&display=inline&height=237&margin=%5Bobject%20Object%5D&originHeight=316&originWidth=600&size=0&status=done&style=none&width=450)
-
-
 在同步过程中，不同的 follower 副本的同步效率也不尽相同。在某一时刻follower1完全跟上了leader副本而follower2只同步了消息3，如此leader副本的LEO为5，follower1的LEO为5，follower2的LEO为4，那么当前分区的HW取最小值4，此时消费者可以消费到offset为0至3之间的消息。
-
-
-
-
-![](https://cdn.nlark.com/yuque/0/2020/png/573685/1604241602360-8f350979-6448-487c-9864-29f1a216a6ad.png#align=left&display=inline&height=241&margin=%5Bobject%20Object%5D&originHeight=482&originWidth=981&size=0&status=done&style=none&width=491)
 
 
 当所有的副本都成功写入了消息3和消息4，整个分区的HW和LEO都变为5，因此消费者可以消费到offset为4的消息了。
