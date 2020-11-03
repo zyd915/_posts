@@ -4,7 +4,7 @@ permalink: icarus-fancybox
 tags: 
     - icarus
     - Blog
-categories: Blog
+categories:[博客,icarus]
 thumbnail: https://static.studytime.xin/article/20200710010415.png
 date: 2020-07-09 22:10:43
 updated: 2020-07-09 22:10:22
