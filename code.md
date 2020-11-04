@@ -1,12 +1,13 @@
 ---
-title: jetbrains 全家桶激活码
+title: IntellJ IDEA  激活码 每日更新 长期提供【JetBrains全家桶】可用
 date: 2020-11-01 00:23:49
 updated: 2020-11-01 00:23:49
 tags: 
     - jetbrains
 categories: tool
 toc: true
-excerpt: jetbrains 全家桶激活码
+top: 99
+excerpt: jetbrains 全家桶激活码，实测可用，每日都会更新，长期提供。再也不用怕突然激活码失效的尴尬了。                      
 ---
 ## 打开Jetbrains软件，如：PHPstorm、IntelliJ IDEA、Golang、Pycharm等
 
