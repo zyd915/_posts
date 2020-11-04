@@ -21,7 +21,7 @@ excerpt: jetbrains 全家桶激活码
 <td class="code jetbrains-code">
     
 </td>
-<script src="https://www.studytime.xin/js/code.js"></script>
+<script src="https://static.studytime.xin/hexo/js/code.js"></script>
 
 ## 复制粘贴如下激活码，点击OK
 
