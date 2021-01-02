@@ -11,7 +11,6 @@ toc: true
 excerpt: Flume 是一个分布式、可靠且高可用的服务，用于有效地收集，聚合和移动大量日志数据。它具有基于流数据的简单灵活架构，良好的可靠性机制、故障转移和恢复机制，具有强大的容错性。它支持在系统中定制各类数据发送方，用于收集数据；同时Flume 提供对数据的简单处理，并具有写到各种数据接收方的能力。
 ---
 
-
 Flume 是一个分布式、可靠且高可用的服务，用于有效地收集，聚合和移动大量日志数据。它具有基于流数据的简单灵活架构，良好的可靠性机制、故障转移和恢复机制，具有强大的容错性。它支持在系统中定制各类数据发送方，用于收集数据；同时Flume 提供对数据的简单处理，并具有写到各种数据接收方的能力。
 
 ![](https://static.studytime.xin/image/articles/spring-bootDevGuide_image00.png)
@@ -52,9 +51,7 @@ Flume 中 Event 可有专门的客户端程序产生，这些客户端程序将�
 
 Flume Agent 主要由三个组件构成，分别是 Source、channel、Sink。
 
-主要作用和功能如下：
-
-1. Source
+### Source
 
 Flume 数据流中接受 Event 的组件，通常从 Client 程序或上一个 Agent 接受数据，并写入一个或多个 Channel。Flume 提供了多种 Source 实现。
 
@@ -64,7 +61,7 @@ Flume 数据流中接受 Event 的组件，通常从 Client 程序或上一个 A
 - 监听文件夹下文件变化：Spooling Directory Source, Taildir Source 
 - 用于 Agent 和 Agent 之间通信的IPC Source: Avro、Thrift
 
-2. Channel
+### Channel
 Channel 是一个缓存区，是连接 Source 和 Sink 的组件，它缓存 Source 写入的 Event，直到被 Sink 发送出去。
 
 目前Flume主要提供了一下几种Channel：
@@ -78,14 +75,14 @@ a1.channels.c1.transactionCapacity = 10000
 a1.channels.c1.byteCapacityBufferPercentage = 20 
 a1.channels.c1.byteCapacity = 800000
 ```
-
 type:类型名称，memory
 capacity:存放的Event最大数目,默认10000
 transactionCapacity:每次事务中，从Source服务的数据，或写 入sink的数据（条数）
 byteCapacityBufferPercentage:Header中数据的比例,默认20
 byteCapacity:存储的最大数据量（byte）
 
-- File Channel：在磁盘文件中缓存 Event。该 Channel 弥补了 Memory Channel 的不足，但性能吞吐率有所下降
+#### File Channel
+在磁盘文件中缓存 Event。该 Channel 弥补了 Memory Channel 的不足，但性能吞吐率有所下降
 
 ```
 a1.channels = c1 
@@ -97,14 +94,18 @@ type:类型名称，file
 checkpointDir:Checkpoint文件存放位置
 dataDirs:数据目录，分隔符分割
 
-- JDBC Channel：支持 JDBC 驱动，进而可将 Event 写入数据库中。该 Channel 适用于对故障恢复要求较高的场景
-- KafKa Channel：在 KafKa 中缓存 Event。KafKa 提供了高容错性，允许可靠地缓存更多的数据，这为 Sink 重复读取 Channel 中的数据提供了可能
+#### JDBC Channel
+支持 JDBC 驱动，进而可将 Event 写入数据库中。该 Channel 适用于对故障恢复要求较高的场景
 
-3. Sink
+#### KafKa Channel
+在 KafKa 中缓存 Event。KafKa 提供了高容错性，允许可靠地缓存更多的数据，这为 Sink 重复读取 Channel 中的数据提供了可能
+
+###  Sink
 Sink 负责从 Channel  读取数据 ，并发送给下一个Agent的Source或者文件存储系统。
 
 目前 Flume 主要提供了一下几种 Sink 实现：
-- Hdfs Sink：最常用的 Sink，负责将 Channel 中的数据写入HDFS
+#### Hdfs Sink
+最常用的 Sink，负责将 Channel 中的数据写入HDFS
 
 ```
 a1.channels = c1 
@@ -126,7 +127,8 @@ hdfs.rollInterval:文件滚动时间间隔（单位：秒）
 hdfs.rollSize:文件滚动大小（单位：byte）
 hdfs.rollCount:hdfs.rollCount
 
-- HBase Sink：可将 Channel 中的数据写入 HBase，支持同步或者异步两种方式
+#### HBase Sink
+可将 Channel 中的数据写入 HBase，支持同步或者异步两种方式
 
 ```
 a1.sinks = k1 
@@ -143,6 +145,10 @@ Column family:Hbase Table中column family名称
 zookeeperQuorum:Hbase中zookeeper地址，hbase-site.xml中的 hbase.zookeeper.quorum中参数值
 znodeParent:hbase-site.xml中的zookeeper.znode.parent中参数值
 
-- Avro/Thrift Sink：内置了 Avro/Thrift 客户端 ，可将 Event 数据通过 Avro/Thrift 发送给指定的 Avro/Thrift 客户端 
-- KafKa Sink：可将 Channel 中的数据写入 Kafka
-- Hive Sink ：可将 Channel 中的数据写入 Hive
+#### Avro/Thrift Sink
+内置了 Avro/Thrift 客户端 ，可将 Event 数据通过 Avro/Thrift 发送给指定的 Avro/Thrift 客户端 
+
+#### KafKa Sink
+可将 Channel 中的数据写入 Kafka
+
+#### Hive Sink ：可将 Channel 中的数据写入 Hive

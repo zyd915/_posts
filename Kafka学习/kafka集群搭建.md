@@ -2,7 +2,7 @@
 title: Kafka浅谈、kafka集群部署与安装
 permalink: kafka-install
 date: 2020-11-02 08:10:27
-updated: 2020-11-02 08:10:27
+updated: 2020-11-02 08:10:28
 tags: 
     - kafka
 categories: [大数据,Kafka]

@@ -8,7 +8,6 @@ tags:
 categories: [大数据,hadoop]
 toc: true
 excerpt: HDFS小文件是指文件远远小于HDFS配置的block文件大小的文件。在HDFS上中block的文件目录数、或增删改查操作等都是存储在内存中，以对象的方式存储，每个对象约占150byte。若大量的小文件存储占用一个block，则会占用大量NameNode内存。而集群存储文件的多少，由NameNode管理，
-
 ---
 
 HDFS小文件是指文件远远小于HDFS配置的block文件大小的文件。在HDFS上中block的文件目录数、或增删改查操作等都是存储在内存中，以对象的方式存储，每个对象约占150byte。若大量的小文件存储占用一个block，则会占用大量NameNode内存。而集群存储文件的多少，由NameNode管理，
