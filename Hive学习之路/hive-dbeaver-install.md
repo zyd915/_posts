@@ -18,9 +18,8 @@ Dbeaver是一个图形化的界面工具，专门用于与各种数据库的集�
 ### 下载Dbeaver
 ![](https://static.studytime.xin/article/20200607183729.png)
 
-- 我们可以直接从github上面下载我们需要的对应的安装包即可[dbeaver](https://github.com/dbeaver/dbeaver/releases)
-
-- 或者官网[dbeaver](https://dbeaver.io/download/)
+- 我们可以直接从github上面下载我们需要的对应的安装包即可[dbeaver](https://github.com/dbeaver/dbeaver/releases)或官网[dbeaver](https://dbeaver.io/download/)
+- [国内百度云Dbeaver地址](https://www.itzy51.com/79.html)
 
 ### 常见报错
 ```
