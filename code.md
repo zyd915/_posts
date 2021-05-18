@@ -6,6 +6,7 @@ thumbnail: https://static.studytime.xin//studytime/image/articles/qD3FGq.jpg
 tags: 
     - jetbrains
 categories: tool
+keywords: idea激活码,激活码,phpstorm激活码,pycharm激活码,IntelliJ激活码,golang激活码,全家桶
 toc: true
 top: 120
 excerpt: jetbrains 全家桶激活码，实测可用，每日都会更新，长期提供。再也不用怕突然激活码失效的尴尬了。                      
