@@ -1,5 +1,5 @@
 ---
-title: 企业级调优
+title: Hive的企业级调优
 permalink: hive-optimization
 date: 2020-06-10 13:48:50
 updated: 2020-06-10 13:48:52
@@ -61,7 +61,7 @@ select * from score cluster by s_id;
  --关闭本地运行模式
 set hive.exec.mode.local.auto=false;
 ```
-  
+
 ### 表的优化
 
 #### 小表、大表 join
@@ -87,7 +87,7 @@ create table jointable(id bigint, time bigint, uid string, keyword string, url_r
 load data local inpath '/opt/module/hivedatas/hive_big_table/*' into table ori; 
 load data local inpath '/opt/module/hivedatas/hive_have_null_id/*' into table nullidtable;
 ```
-  
+
 过滤空key与不过滤空key的结果比较
 ```sql
 不过滤：
@@ -105,7 +105,7 @@ No rows affected (141.585 seconds)
 
 #### 空 key 转换
 有时虽然某个 key 为空对应的数据很多，但是相应的数据不是异常数据，必须要包含在 join 的结果中，此时我们可以表 a 中 key 为空l使得数据随机均匀地分不到不同的 reducer 上。
-  
+
 不随机分布：
 
 ```sql
@@ -135,7 +135,7 @@ LEFT JOIN ori b ON CASE WHEN a.id IS NULL THEN concat('hive', rand()) ELSE a.id 
 
 No rows affected (42.594 seconds) 
 ```
-  
+
 #### map join 
 大表join小表与小表join大表时，如果不指定MapJoin 或者不符合 MapJoin的条件，那么Hive解析器会将Join操作转换成Common Join，即：在Reduce阶段完成join。容易发生数据倾斜。可以用 MapJoin 把小表全部加载到内存，在map端进行join，避免reducer处理。
 ```sql
@@ -174,7 +174,7 @@ select count(ip) from (select ip from log_text group by ip) t;
 #### 笛卡尔积
 尽量避免笛卡尔积，即避免join的时候不加on条件，或者无效的on条件，Hive只能使用1个reducer来完成笛卡尔积。
 
-  
+
 ### 使用分区剪裁、列剪裁
 尽可能早地过滤掉尽可能多的数据量，避免大量数据流入外层SQL。
 
@@ -231,7 +231,7 @@ set hive.mapred.mode=nonstrict;
 --设置严格模式
 set hive.mapred.mode=strict;
 ```
-  
+
 通过设置属性hive.mapred.mode值为默认是非严格模式nonstrict 。开启严格模式需要修改hive.mapred.mode值为stric，开启严格模式可以禁止3种类型的查询。
 
 #### 对于分区表，除非where语句中含有分区字段过滤条件来限制范围，否则不允许执行
@@ -270,7 +270,7 @@ no limit.
 </description>
 </property>
 ```
-  
+
 ```sql
 set mapred.job.reuse.jvm.num.tasks=10;
 ```
@@ -314,7 +314,7 @@ order by：全局排序，缺陷是只能使用一个 reduce
 a)  假设input目录下有1个文件a，大小为780M，那么hadoop会将该文件a分隔成7个块（6个128m的块和1个12m的块），从而产生7个map数。
 b) 假设input目录下有3个文件a，b，c大小分别为10m，20m，150m，那么hadoop会分隔成4个块（10m，20m，128m，22m），从而产生4个map数。即，如果文件大于块大小(128m)，那么会拆分，如果小于块大小，则把该文件当成一个块。
 ```
-  
+
 2. 是不是map数越多越好？
 
 ```
@@ -340,7 +340,7 @@ set mapred.max.split.size=112345600;
 set mapred.min.split.size.per.node=112345600;
 set mapred.min.split.size.per.rack=112345600;
 ```
-  
+
 这个参数表示执行前进行小文件合并，前面三个参数确定合并文件块的大小，大于文件块大小128m的，按照128m来分隔，小于128m，大于100m的，按照100m来分隔，把那些小于100m的（包括小文件和分隔大文件剩下的），进行合并。
 
 #### 复杂文件增加Map数
@@ -379,7 +379,7 @@ N=min(参数2，总输入数据量/参数1)
 ```sql
 --设置每一个job中reduce个数
 set mapreduce.job.reduces=3;
-  ```
+```
 
 ##### reduce个数并不是越多越好
 - 过多的启动和初始化reduce也会消耗时间和资源；
