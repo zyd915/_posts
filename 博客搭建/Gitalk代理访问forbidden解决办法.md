@@ -1,21 +1,19 @@
 ---
 title: Hexo 解决使用 Gitalk 登录授权报 403 的问题
-permalink: icarus-fancybox
+permalink: hexo-gitalk-error
 tags: 
     - icarus
     - Blog
 categories: [博客,icarus]
-thumbnail: https://static.studytime.xin/article/20200710010415.png
-date: 2020-07-09 22:10:43
-updated: 2020-07-09 22:10:22
+thumbnail: (https://static.studytime.xin//studytime/image/articles/HZhIP6.jpg
+date: 2021-05-22 22:10:43
+updated: 2021-05-22 22:10:46
 toc: true
-excerpt: FancyBox 是一款基于jQuery的弹出库，用于呈现各种类型的媒体。 可以用于显示图片、视频，并可以响应很多交互操作。https://fancyapps.com/fancybox/3/
+excerpt: 最近一段时间个人博客使用的 gitalk 在登录 github 授权时经常出现错误 `error: request failed with status code 403`的问题，到底是什么原因造成的和该怎样解决呢？
 
 ---
 
-最近一段时间个人博客使用的 gitalk 在登录 github 授权时经常出现错误 `error: request failed with status code 403`的问题，到底是原因造成的和该怎唐解决呢？
-
-![image-20210525222951548](https://static.studytime.xin//studytime/image/articles/image-20210525222951548.png)
+最近一段时间个人博客使用的 gitalk 在登录 github 授权时经常出现错误 `error: request failed with status code 403`的问题，到底是什么原因造成的和该怎样解决呢？
 
 ### 原因排查
 
@@ -76,5 +74,4 @@ Status Code: 200
 Remote Address: 106.52.24.199:443
 Referrer Policy: strict-origin-when-cross-origin
 ```
-
 
