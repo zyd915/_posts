@@ -5,19 +5,18 @@ tags:
     - icarus
     - Blog
 categories: [博客,icarus]
-thumbnail: (https://static.studytime.xin//studytime/image/articles/HZhIP6.jpg
+thumbnail: https://static.studytime.xin//studytime/image/articles/HZhIP6.jpg
 date: 2021-05-22 22:10:43
 updated: 2021-05-22 22:10:46
 toc: true
-excerpt: 最近一段时间个人博客使用的 gitalk 在登录 github 授权时经常出现错误 `error: request failed with status code 403`的问题，到底是什么原因造成的和该怎样解决呢？
-
+excerpt:  Hexo 解决使用 Gitalk 登录授权报 403 的问题
 ---
 
-最近一段时间个人博客使用的 gitalk 在登录 github 授权时经常出现错误 `error: request failed with status code 403`的问题，到底是什么原因造成的和该怎样解决呢？
+最近一段时间个人博客使用的 gitalk 在登录 github 授权时经常出现错误 `error: request failed with status code 403` 的问题，到底是什么原因造成的和该怎样解决呢？
 
 ### 原因排查
 
-通过检查网络请求发现获取Github Token时请求了以下链接`https://cors-anywhere.herokuapp.com/https://github.com/login/oauth/access_token`，查询GitTalk官方文档发现github.com的oauth是不允许跨域请求的，cors-anywhere.herokuapp.com是一个第三方提供的CORS代理服务，会默认放行所有CORS请求。目前由于该CORS代理服务遭到滥用，因此做了限制，导致GitTalk失效。
+通过检查网络请求发现获取Github Token时请求了以下链接 `https://cors-anywhere.herokuapp.com/https://github.com/login/oauth/access_token`，查询GitTalk官方文档发现github.com的oauth是不允许跨域请求的，cors-anywhere.herokuapp.com是一个第三方提供的CORS代理服务，会默认放行所有CORS请求。目前由于该CORS代理服务遭到滥用，因此做了限制，导致GitTalk失效。
 
 ### 解决方案
 
@@ -63,7 +62,7 @@ location /github {
 
 ### 访问测试
 
-![image-20210525223545350](/Users/baihe/Library/Application Support/typora-user-images/image-20210525223545350.png)
+![image-20210525225150253](https://static.studytime.xin//studytime/image/articles/image-20210525225150253.png)
 
 查看Chrome网络状况，可以看到已经走了自己配置的CORS跨域了。
 
