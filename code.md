@@ -11,33 +11,113 @@ toc: true
 top: 120
 excerpt: jetbrains 全家桶激活码，实测可用，每日都会更新，长期提供。再也不用怕突然激活码失效的尴尬了。                      
 ---
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+
+#### 打开Jetbrains软件，如：PHPstorm、IntelliJ IDEA、Golang、Pycharm等
+
+#### 点击activation code
+
+#### 点击下下方获取激活码
+
+<!-- 按钮触发模态框 -->
+<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" style="width: 100%">
+	点击获取激活码
+</button>
+
+<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myCodeModal" style="width: 100%;margin-top: 25px;">
+	永久激活方式（最新）
+</button>
+
+<!-- 模态框（Modal） -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+					&times;
+				</button>
+				<h4 class="modal-title" id="myModalLabel">
+					激活码
+				</h4>
+			</div>
+			<div class="modal-body">
+			    <img src="https://static.studytime.xin//studytime/image/articles/rR0UDK.jpg" style="margin-left:25%;width: 40%;height: 40%;margin-bottom:15px;" />
+			    <ol>
+			        <li>目前有效期到2021年10月份，本激活码会持续不断更新。</li>
+			        <li>失效请留言，作者会进行更新，若等不及更新，可选择获取永久激活方式</li>
+			    </ol>
+				<input type="password" class="form-control" id="inputPassword" placeholder="请输入密码" style="text-align: center">
+				 <figure class="highlight shell code_input" style="display:none">
+				 <table>
+                 <tr class="jetbrains-code">
+                     <td class="gutter"><pre><span class="line">1</span><br></pre></td>
+                  </tr>
+                  </table>
+                 </figure>
+				 <td class="code jetbrains-code"></td>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">关闭
+				</button>
+				<button type="button" class="btn btn-primary" data-dismiss="submit-modal" onclick="show_active()">
+					提交
+				</button>
+			</div>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal -->
+</div>
 
 
-## 打开Jetbrains软件，如：PHPstorm、IntelliJ IDEA、Golang、Pycharm等
-
-## 点击activation code
-
-## 复制粘贴如下激活码，点击OK
-
-<figure class="highlight shell"><table>
-<tr class="jetbrains-code">
-    <td class="gutter"><pre><span class="line">1</span><br></pre></td>
-            
- </tr></table>
-</figure>
-
-<td class="code jetbrains-code">
-    
-</td>
-<script src="https://static.studytime.xin/hexo/js/code.js"></script>
-
-
-## 特殊说明
-1、目前有效期到2021年10月份，本激活码会不断更新。
-2、失效请留言，作者会进行更新
-
+<!-- 模态框（Modal） -->
+<div class="modal fade" id="myCodeModal" tabindex="-1" role="dialog" aria-labelledby="myCodeModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+					&times;
+				</button>
+				<h4 class="modal-title" id="myCodeModalLabel">
+					永久激活方式
+				</h4>
+			</div>
+			<div class="modal-code-body">
+			    <img src="https://static.studytime.xin//studytime/image/articles/gdvrpv.jpg" style="margin-left:25%;width: 40%;height: 40%;margin-bottom:15px;" />
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+			</div>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal -->
+</div>
 
 
-扫描下方作者公众号二维码，关注白程序员的自习室，回复 “激活码”，获取全家桶激活码，关注作者不迷路
+<script>
+   function show_active() {
+           var passwd = $.trim($('#inputPassword').val());
+           if(!passwd || passwd != 6247)
+           {
+               alert('密码错误或不能为空！');
+               return false;
+           }
+            $.ajax({
+                     async : true,
+                     type:"get",
+                     url:"https://api.studytime.xin/activationCode?passwd=" + passwd,
+                     data:{},
+                     dataType:"json",
+                     success:function (e) {
+                         $('.jetbrains-code').append( "<td class=code><pre><span class=line>" +e.data+"</span><br></pre></td>");
+                         $('.code_input').show();
+                     },
+                     error:function (e) {
+                        alert( e.message);
+                        return false;
+                     }
+            });
+   }
+</script>
+
+
+
 
 
