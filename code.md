@@ -34,9 +34,6 @@ excerpt: jetbrains 全家桶激活码，实测可用，每日都会更新，长�
 	<div class="modal-dialog">
 		<div class="modal-content">
 			<div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-					&times;
-				</button>
 				<h4 class="modal-title" id="myModalLabel">
 					激活码
 				</h4>
@@ -74,9 +71,6 @@ excerpt: jetbrains 全家桶激活码，实测可用，每日都会更新，长�
 	<div class="modal-dialog">
 		<div class="modal-content">
 			<div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-					&times;
-				</button>
 				<h4 class="modal-title" id="myCodeModalLabel">
 					永久激活方式
 				</h4>
@@ -95,9 +89,9 @@ excerpt: jetbrains 全家桶激活码，实测可用，每日都会更新，长�
 <script>
    function show_active() {
            var passwd = $.trim($('#inputPassword').val());
-           if(!passwd || passwd != 6247)
+           if(!passwd)
            {
-               alert('密码错误或不能为空！');
+               alert('密码不能为空！');
                return false;
            }
             $.ajax({
@@ -107,8 +101,13 @@ excerpt: jetbrains 全家桶激活码，实测可用，每日都会更新，长�
                      data:{},
                      dataType:"json",
                      success:function (e) {
-                         $('.jetbrains-code').append( "<td class=code><pre><span class=line>" +e.data+"</span><br></pre></td>");
-                         $('.code_input').show();
+                         if (e.status == 0) {
+                            alert( e.message);
+                            return false;
+                         }else {
+                            $('.jetbrains-code').append( "<td class=code><pre><span class=line>" +e.data+"</span><br></pre></td>");
+                            $('.code_input').show();
+                         }
                      },
                      error:function (e) {
                         alert( e.message);
