@@ -14,7 +14,7 @@ excerpt: jetbrains 全家桶激活码，实测可用，每日都会更新，长�
 <link rel="stylesheet" href="https://static.studytime.xin/hexo/css/bootstrap.min.css" />
 
 
-### 打开Jetbrains软件，如：PHPstorm、IntelliJ IDEA、Golang、Pycharm等
+### 打开Jetbrains软件，支持激活码如：PHPstorm激活码、IntelliJ IDEA激活码、Golang激活码、Pycharm激活码、Webstorm激活码等
 
 ### 点击activation code
 
@@ -54,6 +54,7 @@ excerpt: jetbrains 全家桶激活码，实测可用，每日都会更新，长�
                  </figure>
 				 <td class="code jetbrains-code"></td>
 			</div>
+			<p style="text-align: center;color: red">提交获取激活码时，会有延迟，请不要关闭窗口</p>
 			<div class="modal-footer">
 				<button type="button" class="btn btn-default" data-dismiss="modal">关闭
 				</button>
