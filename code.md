@@ -11,13 +11,14 @@ toc: true
 top: 120
 excerpt: jetbrains 全家桶激活码，实测可用，每日都会更新，长期提供。再也不用怕突然激活码失效的尴尬了。                      
 ---
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://static.studytime.xin/hexo/css/bootstrap.min.css" />
 
-#### 打开Jetbrains软件，如：PHPstorm、IntelliJ IDEA、Golang、Pycharm等
 
-#### 点击activation code
+### 打开Jetbrains软件，如：PHPstorm、IntelliJ IDEA、Golang、Pycharm等
 
-#### 点击下下方获取激活码
+### 点击activation code
+
+### 点击下下方获取激活码
 
 <!-- 按钮触发模态框 -->
 <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" style="width: 100%">
