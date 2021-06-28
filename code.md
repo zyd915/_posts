@@ -1,5 +1,5 @@
 ---
-title: IntellJ IDEA  激活码 每日更新 长期提供【JetBrains全家桶】可用
+title: IntellJ IDEA  激活码2021 每日更新 长期提供【JetBrains全家桶】
 date: 2020-11-01 00:23:49
 updated: 2020-11-01 00:23:50
 thumbnail: https://static.studytime.xin//studytime/image/articles/qD3FGq.jpg
@@ -22,7 +22,7 @@ excerpt: jetbrains 全家桶激活码，实测可用，每日都会更新，长�
 
 <!-- 按钮触发模态框 -->
 <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" style="width: 100%">
-	点击获取激活码
+	点击获取激活码(有效期至2021年10月)
 </button>
 
 <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myCodeModal" style="width: 100%;margin-top: 25px;">
