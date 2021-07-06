@@ -1,13 +1,15 @@
 ---
-title: hive 学习之路（一）初识
+title: Hive 系列文章（一）初识hive
 permalink: hive-knowledge-one
-date: 2020-05-04 17:10:13
-updated: 2020-05-04 17:10:43
+date: 2021-06-29 18:47:13
+updated: 2021-06-29 18:47:43
 tags:
     - 大数据
     - hive
 categories: [大数据,hive]
 toc: true
+thumbnail: https://static.studytime.xin//studytime/image/articles/brnnSj.jpg
+keywords: [HiveServer2, Metastore, Hive, 什么是hive, hive介绍]
 excerpt: Hive 是基于 Hadoop 的数据仓库解决方案。由于 Hadoop 本身在数据存储和计算方面有很好的可扩展性和高容错性，因此使用 Hive 构建的数据仓库也秉承了这些特性。
 ---
 

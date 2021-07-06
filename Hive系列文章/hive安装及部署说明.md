@@ -1,14 +1,15 @@
 ---
-title: hive 学习之路（二）伪分布式安装
+title: Hive 系列文章（二）安装及部署说明
 permalink: hive-knowledge-install
-date: 2020-05-04 17:22:23
-updated: 2020-05-04 17:25:43
+date: 2021-06-30 18:47:13
+updated: 2021-06-30 18:47:43
 tags:
     - 大数据
     - hive
 categories: [大数据,hive]
 toc: true
-priority: 0
+thumbnail: https://static.studytime.xin//studytime/image/articles/sIZ2hq.jpg
+keywords: [HiveServer2, Metastore, Hive, 什么是hive, hive介绍, hive安装部署, hive beeline]
 excerpt: Hive 是基于 Hadoop 的数据仓库解决方案，所以默认代表已经安装 Hadoop，本文只要整理了伪分布式场景下的安装和简单实用案例。
 ---
 
