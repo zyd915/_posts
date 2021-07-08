@@ -17,13 +17,13 @@ Dbeaver是一个图形化的界面工具，专门用于与各种数据库的集�
 
 ### 配置hive数据库连接，增加相关配置
 
-![E3NMby](https://static.studytime.xin//studytime/image/articles/E3NMby.png)
+![](https://static.studytime.xin//studytime/image/articles/E3NMby.png)
 
 ### 点击测试连接按钮，此时会下载驱动，往往就在此时出现驱动慢或者无法下载问题。
 
 
 ### 在Hive连接配置页面，编辑驱动设置
-![Dfh8gt](https://static.studytime.xin//studytime/image/articles/Dfh8gt.png)
+![](https://static.studytime.xin//studytime/image/articles/Dfh8gt.png)
 
 
 ### 修改驱动所使用的的maven镜像为阿里云源的maven
@@ -31,11 +31,11 @@ Dbeaver是一个图形化的界面工具，专门用于与各种数据库的集�
 ```
 alimaven aliyun maven http://maven.aliyun.com/nexus/content/groups/public/ central
 ```
-![RtlZLh](https://static.studytime.xin//studytime/image/articles/RtlZLh.png)
+![](https://static.studytime.xin//studytime/image/articles/RtlZLh.png)
 
-![66WfZW](https://static.studytime.xin//studytime/image/articles/66WfZW.png)
+![](https://static.studytime.xin//studytime/image/articles/66WfZW.png)
 
 ### 驱动下载完成，测试数据库链接
-![3kiavP](https://static.studytime.xin//studytime/image/articles/3kiavP.png)
+![](https://static.studytime.xin//studytime/image/articles/3kiavP.png)
 
 
