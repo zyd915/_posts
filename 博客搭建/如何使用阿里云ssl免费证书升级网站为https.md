@@ -1,5 +1,6 @@
 ---
 title: 如何使用阿里云ssl免费证书升级网站为https
+permalink: blog-install-https
 date: 2020-01-08 21:20:50
 updated: 2020-01-08 21:23:50
 tags: 

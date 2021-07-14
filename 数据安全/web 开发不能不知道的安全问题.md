@@ -2,6 +2,7 @@
 title: web 开发不能不知道的安全问题
 date: 2020-05-04 18:16:14
 updated: 2020-05-04 17:55:43
+permalink: web-security-question
 tags:
     - web
 categories: web

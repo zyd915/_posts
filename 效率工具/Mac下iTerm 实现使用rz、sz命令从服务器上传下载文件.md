@@ -1,6 +1,7 @@
 ---
 title: Mac OS 下 iTerm 实现使用 rz/sz 命令从服务器上传下载文件
 date: 2020-05-03 17:59:47
+permalink: mac-os-iterm-lrzsz
 tags: 
     - iTerm2
     - Mac

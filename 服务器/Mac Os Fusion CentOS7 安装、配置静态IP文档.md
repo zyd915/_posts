@@ -2,6 +2,7 @@
 title: Mac Os Fusion CentOS7 安装、配置静态IP文档
 date: 2020-05-03 19:33:25
 updated: 2020-05-03 19:59:49
+permalink: mac-os-vmware-fusion-install
 tags: 
     - mac
     - 虚拟机

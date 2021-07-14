@@ -2,6 +2,7 @@
 title: windows10 下 Navicat Premium 15 的安装和破解激活
 date: 2020-04-00 19:33:25
 updated: 2020-04-00 19:33:26
+permalink: navicat-premium-15-install
 tags: 
     - tool
     - mysql

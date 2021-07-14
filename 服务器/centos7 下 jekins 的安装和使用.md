@@ -1,5 +1,6 @@
 ---
 title: centos7 下 jekins 的安装和使用
+permalink: centos-jenkins-install
 date: 2020-02-08 20:00:50
 updated: 2020-02-08 21:23:50
 tags: 

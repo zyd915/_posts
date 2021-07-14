@@ -2,6 +2,7 @@
 title: centos 下安装 supervisor及使用
 date: 2020-05-07 00:23:49
 updated: 2020-05-07 00:23:50
+permalink: centos-supervisor-install
 tags: 
     - supervisor
 categories: tool

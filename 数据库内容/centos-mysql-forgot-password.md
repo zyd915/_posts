@@ -2,6 +2,7 @@
 title: CentOS 下 mysql 忘记 root 密码的处理方法
 date: 2020-01-07 20:00:50
 updated: 2020-01-07 21:23:50
+permalink: centos-mysql-forgot-password
 tags: 
     - mysql
 categories: mysql

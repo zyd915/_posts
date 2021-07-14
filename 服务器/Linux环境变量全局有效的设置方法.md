@@ -2,6 +2,7 @@
 title: Linux环境变量全局有效的设置方法
 date: 2021-01-01 21:20:50
 updated: 2021-01-01 21:23:50
+permalink: linux-profile
 tags: 
     - linux
 categories: 
