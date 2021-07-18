@@ -12,7 +12,164 @@ toc: true
 top: 120
 excerpt: jetbrains 全家桶激活码，实测可用，每日都会更新，长期提供。再也不用怕突然激活码失效的尴尬了。                      
 ---
-<link rel="stylesheet" href="https://static.studytime.xin/hexo/css/bootstrap.min.css" />
+
+
+<style type="text/css">
+    .modal-open {
+    overflow: hidden
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    outline: 0
+}
+
+.modal.fade .modal-dialog {
+    -webkit-transform: translate(0, -25%);
+    -ms-transform: translate(0, -25%);
+    -o-transform: translate(0, -25%);
+    transform: translate(0, -25%);
+    -webkit-transition: -webkit-transform 0.3s ease-out;
+    -o-transition: -o-transform 0.3s ease-out;
+    transition: transform 0.3s ease-out
+}
+
+.modal.in .modal-dialog {
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0)
+}
+
+.modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: auto
+}
+
+.modal-dialog {
+    position: relative;
+    width: auto;
+    margin: 10px
+}
+
+.modal-content {
+    position: relative;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #999;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 6px;
+    -webkit-box-shadow: 0 3px 9px rgba(0,0,0,0.5);
+    box-shadow: 0 3px 9px rgba(0,0,0,0.5);
+    outline: 0
+}
+
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    background-color: #000
+}
+
+.modal-backdrop.fade {
+    filter: alpha(opacity=0);
+    opacity: 0
+}
+
+.modal-backdrop.in {
+    filter: alpha(opacity=50);
+    opacity: .5
+}
+
+.modal-header {
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5
+}
+
+.modal-header .close {
+    margin-top: -2px
+}
+
+.modal-title {
+    margin: 0;
+    line-height: 1.42857143
+}
+
+.modal-body {
+    position: relative;
+    padding: 15px
+}
+
+.modal-footer {
+    padding: 15px;
+    text-align: right;
+    border-top: 1px solid #e5e5e5
+}
+
+.modal-footer .btn+.btn {
+    margin-bottom: 0;
+    margin-left: 5px
+}
+
+.modal-footer .btn-group .btn+.btn {
+    margin-left: -1px
+}
+
+.modal-footer .btn-block+.btn-block {
+    margin-left: 0
+}
+
+.modal-scrollbar-measure {
+    position: absolute;
+    top: -9999px;
+    width: 50px;
+    height: 50px;
+    overflow: scroll
+}
+
+@media (min-width: 768px) {
+    .modal-dialog {
+        width:600px;
+        margin: 30px auto
+    }
+
+    .modal-content {
+        -webkit-box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+        box-shadow: 0 5px 15px rgba(0,0,0,0.5)
+    }
+
+    .modal-sm {
+        width: 300px
+    }
+}
+
+@media (min-width: 992px) {
+    .modal-lg {
+        width:900px
+    }
+}
+
+.clearfix:before,.clearfix:after,.form-horizontal .form-group:before,.form-horizontal .form-group:after,.modal-header:before,.modal-header:after,.modal-footer:before,.modal-footer:after {
+    display: table;
+    content: " "
+}
+
+.clearfix:after,.form-horizontal .form-group:after,.modal-header:after,.modal-footer:after {
+    clear: both
+}
+</style>
 
 
 ### 打开Jetbrains软件，支持激活码如：PHPstorm激活码、IntelliJ IDEA激活码、Golang激活码、Pycharm激活码、Webstorm激活码等
@@ -22,11 +179,11 @@ excerpt: jetbrains 全家桶激活码，实测可用，每日都会更新，长�
 ### 点击下下方获取激活码
 
 <!-- 按钮触发模态框 -->
-<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" style="width: 100%">
+<button class="button is-info" data-toggle="modal" data-target="#myModal" style="width: 100%;height: 50px;">
 	点击获取激活码(有效期至2021年10月)
 </button>
 
-<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myCodeModal" style="width: 100%;margin-top: 25px;">
+<button class="button is-info" data-toggle="modal" data-target="#myCodeModal" style="width: 100%;height: 50px;margin-top: 25px;">
 	永久激活方式（最新）
 </button>
 
@@ -45,7 +202,7 @@ excerpt: jetbrains 全家桶激活码，实测可用，每日都会更新，长�
 			        <li>目前有效期到2021年10月份，本激活码会持续不断更新。</li>
 			        <li>失效请留言，作者会进行更新，若等不及更新，可选择获取永久激活方式</li>
 			    </ol>
-				<input type="password" class="form-control" id="inputPassword" placeholder="请输入密码" style="text-align: center">
+				<input type="password" class="form-control" id="inputPassword" placeholder="请输入密码" style="width: 100%;text-align: center">
 				 <figure class="highlight shell code_input" style="display:none">
 				 <table>
                  <tr class="jetbrains-code">
@@ -57,9 +214,9 @@ excerpt: jetbrains 全家桶激活码，实测可用，每日都会更新，长�
 			</div>
 			<p style="text-align: center;color: red">提交获取激活码时，会有延迟，请不要关闭窗口</p>
 			<div class="modal-footer">
-				<button type="button" class="btn btn-default" data-dismiss="modal">关闭
+				<button type="button" class="button is-clearfix" data-dismiss="modal">关闭
 				</button>
-				<button type="button" class="btn btn-primary" data-dismiss="submit-modal" onclick="show_active()">
+				<button type="button" class="button is-success" data-dismiss="submit-modal" onclick="show_active()">
 					提交
 				</button>
 			</div>
@@ -81,7 +238,7 @@ excerpt: jetbrains 全家桶激活码，实测可用，每日都会更新，长�
 			    <img src="https://static.studytime.xin//studytime/image/articles/gdvrpv.jpg" style="margin-left:25%;width: 40%;height: 40%;margin-bottom:15px;" />
 			</div>
 			<div class="modal-footer">
-				<button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+				<button type="button" class="button is-clearfix" data-dismiss="modal">关闭</button>
 			</div>
 		</div><!-- /.modal-content -->
 	</div><!-- /.modal -->
