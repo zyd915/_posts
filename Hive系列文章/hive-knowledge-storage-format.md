@@ -1,13 +1,17 @@
 ---
-title: 一图搞懂Hive存储格式及压缩格式，太清晰了！ permalink: hive-knowledge-storage-format date: 2021-07-18 17:34:21 updated: 2021-07-18
-17:35:43 tags: 大数据,hive categories: 大数据,hive keywords: hive存储格式有哪些,hive压缩格式有哪些,hive实际工作中应该用哪些存储格式,hive存储格式和压缩格式怎么用 toc:
-true thumbnail: https://static.studytime.xin//studytime/image/articles/nTSgZJ.jpg
-excerpt: Hive底层数据是以HDFS文件的形式存储在Hadoop中的，选择一个合适的文件存储格式及压缩方式，也是 Hive
-优化的一个重点。不同的文件存储格式及压缩格式，同时代表着不同的数据存储组织方式，对于性能优化表现会有很大不同。
+title: 一图搞懂Hive存储格式及压缩格式，太清晰了！ 
+permalink: hive-knowledge-storage-format 
+date: 2021-07-18 17:34:21 
+updated: 2021-07-18 17:35:43 
+tags: 大数据,hive 
+categories: 大数据,hive 
+keywords: hive存储格式有哪些,hive压缩格式有哪些,hive实际工作中应该用哪些存储格式,hive存储格式和压缩格式怎么用 
+toc: true 
+thumbnail: https://static.studytime.xin//studytime/image/articles/nTSgZJ.jpg
+excerpt: Hive底层数据是以HDFS文件的形式存储在Hadoop中的，选择一个合适的文件存储格式及压缩方式，也是 Hive 优化的一个重点。不同的文件存储格式及压缩格式，同时代表着不同的数据存储组织方式，对于性能优化表现会有很大不同。
 ---
 
 > Hive底层数据是以HDFS文件的形式存储在Hadoop中的，选择一个合适的文件存储格式及压缩方式，也是 Hive 优化的一个重点。不同的文件存储格式及压缩格式，同时代表着不同的数据存储组织方式，对于性能优化表现会有很大不同。
-
 
 本文将会对Hive的存储格式、压缩格式等进行介绍和讲解，并依托案例从各个角度剖析对性能的优影响，也会讲述个人在实际工作中的一些选择和建议。
 
