@@ -4,7 +4,7 @@ permalink: hive-knowledge-storage-format
 date: 2021-07-18 17:34:21 
 updated: 2021-07-18 17:35:43 
 tags: 大数据,hive 
-categories: 大数据,hive 
+categories: [大数据,hive]
 keywords: hive存储格式有哪些,hive压缩格式有哪些,hive实际工作中应该用哪些存储格式,hive存储格式和压缩格式怎么用 
 toc: true 
 thumbnail: https://static.studytime.xin//studytime/image/articles/nTSgZJ.jpg
