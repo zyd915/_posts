@@ -6,7 +6,7 @@ updated: 2020-05-04 19:59:49
 tags: 
     - mysql
     - 数据库
-categories: data
+categories: 数据库
 toc: true
 excerpt: 本文主要整理了用户创建、删除、以及用户权限赋予、权限删除等 mysql 用户权限相关命令，以备记录自己使用。
 ---

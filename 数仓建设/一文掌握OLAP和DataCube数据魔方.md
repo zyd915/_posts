@@ -5,7 +5,8 @@ date: 2021-07-06 00:56:45
 updated: 2021-07-06 00:56:47
 tags: 
     - 数仓
-categories: data
+categories: 数仓建设
+keywords: OLAP,OLAP是什么,DataCube,DataCube数据魔方,数据魔方,OLAP和OLTP的区别,数据切片和切块,数据上卷和钻取
 toc: true
 thumbnail: https://static.studytime.xin/article/nRxRicH5ISCN6uLcDadR_meitu_1.jpg
 excerpt: OLAP( On-Line Analytical Processing)，联机分析处理过程。个人理解为主要场景针对大批量数据，实时性无要求，基于数仓多维模型，进行分析操作的系统中。Hadoop体系中MapReduce、Hive、Spark、Flink等都可以进行为OLAP实现。

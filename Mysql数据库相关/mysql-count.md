@@ -6,7 +6,7 @@ updated: 2020-05-04 20:01:49
 tags: 
     - mysql
     - 数据库
-categories: data
+categories: 数据库
 toc: true
 excerpt: 最近用MySQL做统计的需求比较多，这里整理一些常用的场景方便后期查阅，同时也是抛砖引玉的过程。其中包括普通的分组统计，连续的每日统计，区间范围统计。
 ---

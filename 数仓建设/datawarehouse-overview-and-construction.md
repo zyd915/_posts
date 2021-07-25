@@ -5,7 +5,7 @@ date: 2020-06-06 08:10:27
 updated: 2020-06-06 08:10:28
 tags: 
     - 数仓
-categories: data
+categories: 数仓建设
 toc: true
 thumbnail: https://static.studytime.xin/article/vYNJMENIL9OxZHYWEG6p_meitu_1.jpg
 excerpt: 数据仓库概念由比尔.恩门于1990年提出，主要是将OLTP系统存储的数据，经数据仓库特有的理论以及架构体系，进行系统的分析整理。

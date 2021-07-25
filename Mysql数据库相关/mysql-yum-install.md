@@ -6,7 +6,7 @@ updated: 2020-05-04 19:59:49
 tags: 
     - mysql
     - 数据库
-categories: data
+categories: 数据库
 toc: true
 excerpt: 在CentOS7中默认安装有MariaDB，这个是MySQL的分支，但为了需要，还是要在系统中安装MySQL，而且安装完成之后可以直接覆盖掉MariaDB。
 ---

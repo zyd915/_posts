@@ -6,7 +6,7 @@ updated: 2020-05-04 20:01:50
 tags: 
     - mysql
     - 数据库
-categories: data
+categories: 数据库
 toc: true
 excerpt: Mac Os 下MySQL忘记密码后如何重置密码
 ---
