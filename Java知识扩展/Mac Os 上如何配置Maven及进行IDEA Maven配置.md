@@ -2,6 +2,7 @@
 title: Mac Os 上如何配置Maven及进行IDEA Maven配置
 date: 2020-05-05 17:14:50
 updated: 2020-05-05 19:59:49
+permalink: mac-os-java-maven-install
 tags: 
     - mac
     - maven

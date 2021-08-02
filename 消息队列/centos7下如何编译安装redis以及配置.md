@@ -2,6 +2,7 @@
 title: centos7下如何编译安装redis以及配置
 date: 2020-03-22 23:12:47
 updated: 2020-03-22 23:12:49
+permalink: redis-install
 tags: 
     - redis
 categories: redis

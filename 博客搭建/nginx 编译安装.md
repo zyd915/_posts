@@ -2,6 +2,7 @@
 title: nginx 编译安装
 date: 2020-01-08 00:23:49
 updated: 2020-01-08 21:12:56
+permalink: nginx-install
 tags: 
     - nginx
     - java

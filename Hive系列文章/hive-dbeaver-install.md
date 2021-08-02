@@ -6,7 +6,7 @@ updated: 2021-06-09 01:15:22
 tags:
     - 大数据
     - hive
-categories: [大数据,hive,Dbeaver]
+categories: [大数据,hive]
 toc: true
 keywords: [大数据,hive客户端,Dbeaver下载,Dbeaver安装]
 thumbnail: https://static.studytime.xin/article/kWlG922vxMM.jpg

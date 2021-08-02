@@ -2,6 +2,7 @@
 title: centos 下 tomact 的安装和使用
 date: 2020-05-07 20:30:05
 updated: 2020-05-07 20:32:05
+permalink: java-tomcat-install
 tags: 
     - centos
     - java

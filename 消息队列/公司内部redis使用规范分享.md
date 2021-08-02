@@ -2,6 +2,7 @@
 title: 公司内部redis使用规范分享
 date: 2020-03-21 23:12:47
 updated: 2020-03-21 23:12:49
+permalink: redis-internal-specifications
 tags: 
     - redis
     - 规范

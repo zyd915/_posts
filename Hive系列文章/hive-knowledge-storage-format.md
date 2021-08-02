@@ -3,7 +3,7 @@ title: 一文搞懂Hive存储格式及压缩格式，太清晰了！
 permalink: hive-knowledge-storage-format 
 date: 2021-07-18 17:34:21 
 updated: 2021-07-18 17:35:43 
-tags: 大数据,hive 
+tags: [大数据,hive]
 categories: [大数据,hive]
 keywords: hive存储格式有哪些,hive压缩格式有哪些,hive实际工作中应该用哪些存储格式,hive存储格式和压缩格式怎么用 
 toc: true 

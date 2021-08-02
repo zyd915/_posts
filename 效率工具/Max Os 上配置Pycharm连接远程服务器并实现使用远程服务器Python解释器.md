@@ -2,6 +2,7 @@
 title: Max Os 上配置Pycharm连接远程服务器并实现使用远程服务器Python解释器
 date: 2020-05-05 20:38:45
 updated: 2020-05-05 20:38:46
+permalink: mac-os-python-pycharm-server-develop
 tags: 
     - mac
     - pycharm
