@@ -1,5 +1,5 @@
 ---
-title: Hive系统函数一览 
+title: Hive系统函数一览 (建议收藏)
 permalink: hive-knowledge-function 
 date: 2021-07-30 15:47:13 
 updated: 2021-07-30 15:47:43 
