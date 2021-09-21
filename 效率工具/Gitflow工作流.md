@@ -3,7 +3,7 @@ title: Gitflow工作流，git使用方法论
 permalink: gitflow-using
 date: 2020-07-14 00:56:45
 updated: 2020-07-14 00:57:45
-tags: tool
+tags: tool,git
 categories: tool
 keywords: git方法论,git工作方法论,Gitflow工作流
 toc: true

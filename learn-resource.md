@@ -8,7 +8,6 @@ tags:
     - tool
 categories: tool
 toc: true
-top: 102
 excerpt: 超过 1024G 的 IT 学习资料免费领取（大数据、Java、Python等），你值得拥有！
 ---
 
