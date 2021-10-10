@@ -181,7 +181,7 @@ excerpt: jetbrains 全家桶激活码，实测可用，每日都会更新，长�
 
 <!-- 按钮触发模态框 -->
 <button class="button is-info" data-toggle="modal" data-target="#myModal" style="width: 100%;height: 50px;">
-	点击获取激活码(有效期至2021年10月)
+	点击获取激活码
 </button>
 
 <button class="button is-info" data-toggle="modal" data-target="#myCodeModal" style="width: 100%;height: 50px;margin-top: 25px;">
@@ -200,7 +200,7 @@ excerpt: jetbrains 全家桶激活码，实测可用，每日都会更新，长�
 			<div class="modal-body">
 			    <img src="https://static.studytime.xin//studytime/image/articles/rR0UDK.jpg" style="margin-left:25%;width: 40%;height: 40%;margin-bottom:15px;" />
 			    <ol>
-			        <li>目前有效期到2021年10月份，本激活码会持续不断更新。</li>
+			        <li>本激活码会持续不断更新</li>
 			        <li>失效请留言，作者会进行更新，若等不及更新，可选择获取永久激活方式</li>
 			    </ol>
 				<input type="password" class="form-control" id="inputPassword" placeholder="请输入密码" style="width: 100%;text-align: center">

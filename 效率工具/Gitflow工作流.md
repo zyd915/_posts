@@ -11,19 +11,14 @@ thumbnail: https://static.studytime.xin//studytime/image/articles/UNUqu1.jpg
 excerpt: Gitflow工作流定义了一个围绕项目发布的严格分支模型。虽然比功能分支工作流复杂几分，但提供了用于一个健壮的用于管理大型项目的框架。
 ---
 
-Gitflow工作流定义了一个围绕项目发布的严格分支模型。虽然比功能分支工作流复杂几分，但提供了用于一个健壮的用于管理大型项目的框架。
+本文将介绍一种git企业工作流规范，Gitflow工作流。它定义了一个围绕项目发布的严格分支模型。虽然比功能分支工作流复杂几分，但提供了用于一个健壮的用于管理大型项目的框架。
 
-## 目录
-
-这节介绍的Gitflow工作流借鉴自在nvie的Vincent Driessen。
 ![](https://static.studytime.xin/image/articles/spring-boot20190819223047.png)
 
 文档所在:[https://git-scm.com/book/zh/v1/](https://git-scm.com/book/zh/v1/)
 
 Gitflow工作流没有用超出功能分支工作流的概念和命令，而是为不同的分支分配一个很明确的角色，并定义分支之间如何和什么时候进行交互。除了使用功能分支，在做准备、维护和记录发布也使用各自的分支。当然你可以用上功能分支工作流所有的好处：Pull Requests、隔离实验性开发和更高效的协作。
 ### 工作方式
-
-
 Gitflow工作流仍然用中央仓库作为所有开发者的交互中心。和其它的工作流一样，开发者在本地工作并push分支到要中央仓库中。
 
 ### 历史分支
@@ -43,9 +38,7 @@ Gitflow工作流仍然用中央仓库作为所有开发者的交互中心。和�
 注意，从各种含义和目的上来看，功能分支加上develop分支就是功能分支工作流的用法。但Gitflow工作流没有在这里止步。
 
 ### 发布分支
-
 ![](https://static.studytime.xin/image/articles/spring-boot20190819223206.png)
-
 
 一旦develop分支上有了做一次发布（或者说快到了既定的发布日）的足够功能，就从develop分支上fork一个发布分支。新建的分支用于开始发布循环，所以从这个时间点开始之后新的功能不能再加到这个分支上 —— 这个分支只应该做Bug修复、文档生成和其它面向发布任务。一旦对外发布的工作都完成了，发布分支合并到master分支并分配一个版本号打好Tag。另外，这些从新建发布分支以来的做的修改要合并回develop分支。
 
