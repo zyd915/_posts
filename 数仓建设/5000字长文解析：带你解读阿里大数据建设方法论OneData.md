@@ -6,7 +6,8 @@ updated: 2021-07-24 00:56:47
 tags:
 - 数仓
 categories: 数仓建设
-toc: true 
+toc: true
+read_more: true
 keywords: 阿里onedata介绍,onedata体系方法论,数仓建设方法论
 thumbnail: https://static.studytime.xin//studytime/image/articles/YzDjFx.jpg
 excerpt: 在建设大数据数据仓库时，首先要进行充分的业务调研和需求分析，这是数据仓库建设的基石，业务调研和需求分析做得是否充分直接决定了数据仓库建设是否成功。其次进行数据总体架构设计，主要是根据数据域对数据进行划分；按照维度建模理论，构建总线矩阵、抽象出业务过程和维度。再次，对报表需求进行抽象整理出相关指标体系，使用OneData工具完成指标规范定义和模型设计。

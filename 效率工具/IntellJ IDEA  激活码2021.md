@@ -1,5 +1,5 @@
 ---
-title: 🏆 IntellJ IDEA  激活码2021 每日更新 长期提供【JetBrains全家桶】
+title: 🏆 IntellJ IDEA  激活码2021 激活码2022 每日更新 长期提供【JetBrains全家桶】
 date: 2020-11-01 00:23:49
 updated: 2020-11-01 00:23:50
 permalink: code
@@ -7,8 +7,8 @@ thumbnail: https://static.studytime.xin/article/20211113001411.png
 tags: 
     - jetbrains
 categories: tool
-description: idea激活码,idea激活码2021,idea激活码2020,激活码,phpstorm激活码,pycharm激活码,IntelliJ激活码,golang激活码,IDEA 注册码,IDEA 注册机,PyCharm 注册码,pycharm激活码2020,pycharm激活码2021,WebStorm 注册码,webstorm激活码2020,webstorm激活码2021
-keywords: idea激活码,idea激活码2021,idea激活码2020,激活码,phpstorm激活码,pycharm激活码,IntelliJ激活码,golang激活码,IDEA 注册码,IDEA 注册机,PyCharm 注册码,pycharm激活码2020,pycharm激活码2021,WebStorm 注册码,webstorm激活码2020,webstorm激活码2021
+description: idea激活码,idea激活码2021,idea激活码2022,idea激活码2020,激活码2022,激活码,phpstorm激活码,pycharm激活码,IntelliJ激活码,golang激活码,IDEA 注册码,IDEA 注册机,PyCharm 注册码,pycharm激活码2022,pycharm激活码2021,WebStorm 注册码,webstorm激活码2020,webstorm激活码2021
+keywords: idea激活码,idea激活码2022,idea激活码2022,激活码,phpstorm激活码,pycharm激活码,IntelliJ激活码,golang激活码,IDEA 注册码,IDEA 注册机,PyCharm 注册码,pycharm激活码2022,pycharm激活码2021,WebStorm 注册码,webstorm激活码2020,webstorm激活码2021,webstorm激活码2022
 toc: true
 top: 120
 excerpt: jetbrains 全家桶激活码，实测可用，每日都会更新，长期提供。再也不用怕突然激活码失效的尴尬了。                      
@@ -150,7 +150,7 @@ excerpt: jetbrains 全家桶激活码，实测可用，每日都会更新，长�
         -webkit-box-shadow: 0 5px 15px rgba(0,0,0,0.5);
         box-shadow: 0 5px 15px rgba(0,0,0,0.5)
     }
-
+    
     .modal-sm {
         width: 300px
     }
@@ -202,6 +202,8 @@ excerpt: jetbrains 全家桶激活码，实测可用，每日都会更新，长�
 			    <ol>
 			        <li>本激活码会持续不断更新</li>
 			        <li>失效请留言，作者会进行更新，若等不及更新，可选择获取永久激活方式</li>
+              <li style="color: red">特殊说明，激活码稳定性较差，强烈建议 建议 建议使用 <a href="https://www.studytime.xin/article/jetbrains-active-method.html">永久激活方式</a>
+</li>
 			    </ol>
 				<input type="password" class="form-control" id="inputPassword" placeholder="请输入密码" style="width: 100%;text-align: center">
 				 <figure class="highlight shell code_input" style="display:none">
