@@ -1,5 +1,5 @@
 ---
-title: 超过1024G的IT学习资料免费领取（大数据、Java、Python等）
+ title: 超过1024G的IT学习资料免费领取（大数据、Java、Python等）
 permalink: learn-resource
 thumbnail: https://static.studytime.xin/article/CROh0hfuG3I.jpg
 date: 2020-06-22 00:23:49
